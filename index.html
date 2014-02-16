@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Dr.P.Meganathan</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/slide-style.css">
+</head>
+<body class="body">
+	<header class="mainheader">
+    	<div class="headcontent">
+            <span><img id="meganathan" src="images/Meganathan.png" alt="Meganathan Pandian" /></span>
+            <h1><a href="index.html">Dr.P.Meganathan</a></h1>
+        </div>
+    	<nav><ul>
+        	<li class="active"><a href="#">Home</a></li>
+            <li><a href="about-me.html">About</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="profession.html">Profession</a></li>
+            <li><a href="#">For Contact</a></li>
+        </ul></nav>
+    </header>
+    <div class="maincontent">
+    	<div class="content">
+        	<article class="first" >
+            	<header>
+                	<h2>Welcome Everyone!!!</h2>
+                </header>
+                <content class="container">
+                	<div id="slides">
+                          <img src="images/family/01.jpg" alt="">
+                          <img src="images/family/02.jpg" alt="">
+                          <img src="images/profession/01.jpg" alt="">
+                          <img src="images/profession/02.jpg" alt="">
+                          <img src="images/profession/03.jpg" alt="">
+				    </div>
+                </content>
+            </article>
+        </div>
+    </div>
+    <footer class="mainfooter">
+    	<p> Copyrights &copy; 2014.</p>
+    </footer>
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+</body>
+</html>	
